@@ -4,5 +4,6 @@
 
 # Intellij
 .idea/
+.git/
 *.iml
 *.iws
