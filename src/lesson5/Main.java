@@ -5,15 +5,14 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         String text = "ZюукяДZіботZ,ежобZощZяZенZ!ьлаксом";
-        String textAfterReverce = ReverseTheText.reverseTheText(text).replace('Z', ' ');
-
-
+        String textAfterReverce = new StringBuilder(text).reverse().toString().replace('Z', ' ');
         String[] textForSplit = textAfterReverce.split(" ");
         for (int i = textForSplit.length - 1; i >= 0; i--) {
             System.out.print(textForSplit[i] + " ");
 
         }
         System.out.println();
+        
         System.out.println("The second task -------------------------------");
 
         Scanner scanner = new Scanner(System.in);
