@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Calculator {
     public static void calculate() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter first  number");
+        System.out.println("Enter first  number ");
         double operandFirst = scanner.nextDouble();
         System.out.println("Enter what operation do you want: + ,  - , * , / ");
         String sign = scanner.next();

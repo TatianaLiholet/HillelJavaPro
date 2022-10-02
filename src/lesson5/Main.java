@@ -13,7 +13,7 @@ public class Main {
         }
         System.out.println();
         
-        System.out.println("The second task -------------------------------");
+        System.out.println("The second task --------------------------------");
 
         Scanner scanner = new Scanner(System.in);
         Calculator.calculate();
